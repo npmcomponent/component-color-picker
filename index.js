@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var o = require('jquery')
-  , Emitter = require('emitter')
-  , autoscale = require('autoscale-canvas');
+var o = require('component-jquery')
+  , Emitter = require('component-emitter')
+  , autoscale = require('component-autoscale-canvas');
 
 /**
  * Expose `ColorPicker`.

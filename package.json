@@ -1,6 +1,5 @@
 {
-  "name": "color-picker",
-  "repo": "component/color-picker",
+  "name": "component-color-picker",
   "description": "Simple color picker component",
   "version": "0.0.2",
   "keywords": [
@@ -8,22 +7,13 @@
     "picker",
     "ui"
   ],
+  "styles": [
+    "color-picker.css"
+  ],
   "dependencies": {
-    "jquery-component": "*",
-    "emitter-component": "*",
-    "autoscale-canvas": "*"
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git",
+    "component-autoscale-canvas": "git://github.com/npmcomponent/component-autoscale-canvas.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "component": {
-    "scripts": {
-      "color-picker/index.js": "index.js",
-      "color-picker/template.js": "template.js"
-    },
-    "styles": [
-      "color-picker.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/color-picker.git"
-  }
+  "license": "MIT"
 }
